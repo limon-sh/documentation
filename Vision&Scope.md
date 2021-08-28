@@ -15,11 +15,11 @@ All products that are available in the Internet are hosted on servers. Such prod
 
 |Risk| Description|Resolution|
 |-------|:---:|:-------:|
-|Payback Period|TBD|Need to analyze traffic and volume of the data that should be stored, duration of data storage|
-|Accesability of the server|TBD|TBD|
-|Huge technical support|TBD|TBD|
-|Market analysis|TBD|Make market analysis, conduct market research|
-|Absence of time|There is no enought time to support project after launch|TBD|
+|Payback Period|Storage of the data is highly cost operation and there are some efficient featyres that require this operation|- Need to analyze traffic and volume of the data that should be stored   - Need to determine which features will be free and their volume - Need to determine duration of data storage for different |
+|Accesability of the server|AWS will be used as a server provider, the AWS allows several minutes per month of unavailability|Agent should have local data base and then send them to server and clear data base. The clients should be notified about local DB to be able plan their storage|
+|Huge technical support|There is a technical issue with BE/FE|7 days to resolve a technical issues, during this period all data will be collected and stored on the client side|
+|Market analysis|No confidence in |Make market analysis, conduct market research|
+|Absence of time|There is no enought time to support project after launch|Be ready to spend a lot of time by ourselves|
 
 ### 1.2 Scope
 The solution is a web - application and agent. Agent is a programm that aim is to collect information about server to vizualize it in the web application. Web - application is a way to agregate information that is gotten from Agent and allow users apply action regarding server monitoring. Web - application will be presented as a responsive one.
