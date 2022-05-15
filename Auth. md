@@ -1,0 +1,25 @@
+The user should be able to sign up with providing the following data:
+|Data | Description |
+| ------ | ------ |
+| Full name | Mandatory, char 64, otherwise error "The full name should be less then 64 characters"|
+| Email |The email should be register insensitive|
+||Mandatory field|
+||It should be unique. If the user provided already used email the system should not send verification link to the email| 
+||It should have email format, otherwise error "Please use email format for the filed|
+|Password | Mandatory field|
+||The password should be more than 8, otherwise the error "Please provide password that contains 8 symbols or more"|
+||The user should be able to view the provided password|
+|Privacy Policy and Tems of Use|The user must confirm Privacy Policy and Terms of Use. The system should open them as a separate page|
+
+The system should verify the provided data as soon as the user confirms the registration. As soon as the system confirms the provided data the system should sent verification link to the email.The link should be valid (AND-logic):
+- 24 h
+- one-click
+- new link sending (see Sign In description)
+If the user follows invalid link the system should show error "It seems the lins has been expired. Please sign up once more or try to log in with your credential if you've already followed this link"
+
+If the user has not confirmed email within 24h the system should:
+- delete user account
+- allow to user email for registration once more
+
+The user should be able to sign up with Google SSO.
+**TBD** The system, should allow to use one option from sign up: basic sign up via email or sign up via Google SSO, otherwise the error "The user with provided email already exists"
