@@ -36,3 +36,5 @@ The user with admin role should be able to view the list of publication that exi
 3. publication tags
 4. visibility 
 5. is first
+
+The publications should be sorted by the date of creation (newest at the top).
